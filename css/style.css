@@ -1,14 +1,17 @@
 @import url(../css/clash-display.css);
-
-/*Variables*/
+.example {
+  font-family: "acumin-variable",sans-serif;
+  font-variation-settings: 'wght' 600, 'wdth' 100, 'slnt' 0;
+}
 :root{
     --c-dark: #212529;
     --c-brand: rgb(4, 104, 4);
     --c-brand-light: #6970dd;
     --c-brand-rgb: 78, 87, 212;
     --c-body: #727272;
-    --font-base:"ClashDisplay", sans-serif;
+    --font-base:"acumin-variable",sans-seriff;
     --box-shadow:0px 15px 25px rgba(0,0,0,0.08);
+  font-variation-settings: 'wght' 600, 'wdth' 100, 'slnt' 0;
     --transition: all 0.5s ease;
 }
 nav{
